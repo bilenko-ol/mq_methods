@@ -1,0 +1,75 @@
+[[package]]
+name = "aiormq"
+version = "6.4.2"
+description = "Pure python AMQP asynchronous client library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+pamqp = "3.2.1"
+yarl = "*"
+
+[package.extras]
+develop = ["aiomisc (>=16.0,<17.0)", "coverage (!=4.3)", "coveralls", "pylava", "pytest", "pytest-cov", "tox (>=2.4)"]
+
+[[package]]
+name = "idna"
+version = "3.4"
+description = "Internationalized Domain Names in Applications (IDNA)"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "multidict"
+version = "6.0.2"
+description = "multidict implementation"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "nest-asyncio"
+version = "1.5.6"
+description = "Patch asyncio to allow nested event loops"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "pamqp"
+version = "3.2.1"
+description = "RabbitMQ Focused AMQP low-level library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+codegen = ["lxml", "requests", "yapf"]
+testing = ["coverage", "flake8", "flake8-comprehensions", "flake8-deprecated", "flake8-import-order", "flake8-print", "flake8-quotes", "flake8-rst-docstrings", "flake8-tuple", "yapf"]
+
+[[package]]
+name = "yarl"
+version = "1.8.1"
+description = "Yet another URL library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+idna = ">=2.0"
+multidict = ">=4.0"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "0084383a667a5b773ebdf4f85946ba17e28dfeca91d3551c0d53480c72333e89"
+
+[metadata.files]
+aiormq = []
+idna = []
+multidict = []
+nest-asyncio = []
+pamqp = []
+yarl = []

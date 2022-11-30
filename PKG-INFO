@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mq-methods
+Version: 0.1.0
+Summary: 
+Author: bilenko-ol
+Author-email: bilenko.le@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiormq (>=6.4.2,<7.0.0)
+Requires-Dist: nest-asyncio (>=1.5.6,<2.0.0)
