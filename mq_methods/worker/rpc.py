@@ -5,7 +5,7 @@ from typing import Optional
 import aiormq
 import nest_asyncio
 
-from logger import worker_logger
+from mq_methods.logger import worker_logger
 from .base import BaseWorker
 
 

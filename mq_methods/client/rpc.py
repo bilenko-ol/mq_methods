@@ -5,7 +5,7 @@ from typing import Optional
 
 import aiormq
 
-from mq_methods.mq_methods.logger import client_logger
+from mq_methods.logger import client_logger
 from .base import BaseClient
 
 
